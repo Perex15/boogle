@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-size: 16px; /* Adjust font size for responsiveness */
+}
+
+#results {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 3rem; /* Adjust font size for responsiveness */
+    position: relative;
+}
+
+#biogle {
+    display: block;
+}
+
+#results li {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.5rem; /* Adjust font size for responsiveness */
+}
+
+#results li:hover {
+    background-color: #ddd;
+}
+
+#search {
+    border-radius: 5px;
+    border: 1px solid #ff0000;
+    margin-top: 10px; /* Adjust margin for responsiveness */
+    padding: 15px;
+    width: 80%; /* Adjust width for responsiveness */
+    font-size: 1rem; /* Adjust font size for responsiveness */
+}
+
+#search::placeholder{
+    font-size: 1rem; /* Adjust font size for responsiveness */
+}
+
+.g {
+    color: blue;
+}
+
+.o {
+    color: rgb(236, 236, 6);
+}
+
+.oo {
+    color: red;
+}
+
+.l {
+    color: green;
+}
+
+#totalbooks {
+    font-size: 0.75rem; /* Adjust font size for responsiveness */
+    border: 1px solid greenyellow;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#container {
+    margin: 20px auto; /* Adjust margin for responsiveness */
+    font-size: 1rem; /* Adjust font size for responsiveness */
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto; /* Adjust margin for responsiveness */
+    text-align: center;
+}
+
+table tr td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+button[type="button"] {
+    background-color: green;
+    border: 1px solid red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.informationCollector {
+    display: block;
+}
